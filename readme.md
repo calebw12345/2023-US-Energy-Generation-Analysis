@@ -1,7 +1,7 @@
 # 2023 US Energy Generation Analysis
 ## Energy generation metrics for the year of 2023 by state and energy source. The key functionality of this tableau file is its extensive interactive ability.
 
-INTRODUCTION: This Analysis will assist in detemining the landscape of energy geneation in US statee. Using this information, the US can determine what states need to "step up their game" and take more carbon efficient energy generation initiatives, and where those initiatives could be taken. 
+INTRODUCTION: This Analysis will assist in detemining the landscape of energy geneation in US states. Using this information, the US can determine what states need to "step up their game" and take more carbon efficient energy generation initiatives, and where those initiatives could be taken. 
 
 DATA/ OPERATIONS ABSTRACTION DESIGN: There are two data sources used in this project. The first data source comes from the EIA (Energy Information Administration) via https://www.eia.gov/electricity/data/state/ and the name of the dataset is "EIA-923 Power Plant Operations Report (released: 10/4/2024)". The second dataset simply contains population by state and is obtained via https://www.statista.com/statistics/183497/population-in-the-federal-states-of-the-us/. The EIA dataset contains many variables which haven't been used in this analysis and which were removed from the data souce prior to being inserted into tableau. Some new variables have also been created using existing variables. This dataset contained no missing values which, however as previously stated some information was removed. You can find the original dataset titled "TITLE HERE" and "TITLE HERE" in this repo, and the cleaned/fully prepared data set titled "HERE" in this repo. 
 
